@@ -27,7 +27,7 @@ fn quotient(a: u128, b:u128) -> u128 {
     helper(a, b, 0)
 }
 
-fn gcd(a: u128, b: u128) -> u128 {
+pub fn gcd(a: u128, b: u128) -> u128 {
     if b == 0 {
         a
     } else {
